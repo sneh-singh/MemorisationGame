@@ -1,0 +1,70 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.cover_board
+{
+	width: 705px;
+	height: 635px;
+	background: #ccc;
+	border: 3px solid #ddd;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	padding-top: 5px;
+}
+.coin_cell
+{
+	width: 65px;
+	height: 54px;
+	margin: 2px;
+	background: #bbb;
+	-webkit-appearance: button;
+	-moz-appearance: button;
+}
+.coin_cell, .reset_button, .result_div
+{
+	border: 2px solid #aaa;
+}
+.first_row, .timer_div, .cover_board
+{
+	margin: auto;
+}
+.first_row, .timer_div
+{
+	width: 92%;
+}
+.first_row, .timer_div, .reset_button
+{
+	clear: both;
+}
+.timer_div
+{
+	text-align: right;
+}
+.reset_button
+{
+	padding: 5px 8px;
+}
+.reset_button, .result_div
+{
+	background: #ddd;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	margin-left: 20px;
+}
+.result_div, .reset_button, .coin_cell
+{
+	float: left;
+}
+.result_div
+{
+	padding: 3px;
+}
+.rate
+{
+	color: #ff0000;
+	font-weight: bold;
+}
